@@ -186,9 +186,6 @@
     <h1>Рад это слышать, надеюсь удалось вызвать твою прекрасную и завораживающую улыбку 💖</h1>
 </div>
 
-<div class="container hidden" id="page4">
-    <h1>Своё имя я пожалуй не сообщу, пусть пока что останется тайной. ✨</h1>
-</div>
 
 <script>
     function nextPage() {
@@ -212,7 +209,7 @@
 
     function showMystery() {
         document.getElementById('page3').classList.add('hidden');
-        document.getElementById('page4').classList.remove('hidden');
+        document.getElementById('page3').classList.remove('hidden');
 
         // Закрытие через 30 секунд
         setTimeout(closePage, 30000);
@@ -247,5 +244,4 @@
 </body>
 
 </html>
-
 
